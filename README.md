@@ -20,17 +20,35 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Project description
 
-To learn more about Next.js, take a look at the following resources:
+This project is a demo webpage designed to help customers with information about various types of loss reports such as lost cards, IDs, and other documents. The primary goal is to provide a clear and user-friendly interface that retrieves and displays menus and content from specific API endpoints.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Execution
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Fetching Data:
+Implemented API calls using Next.js built-in API routing and fetch to retrieve menus and content from the given endpoints.
+Created separate functions to fetch data.
+Note: Due to time constraints, I prioritized content over functionality and some styling of the navigation and header.
+Component Structure:
+Broke down the page into smaller, reusable components, inspired by file structure from React.
+Utilized the Radix.ui component library.
+Used props to pass data between components and hooks to manage state and page lifecycle.
+Styling and UX:
+Used Tailwind CSS to quickly and efficiently style components, providing flexibility to create a responsive and modern design.
+Focused on creating a user-friendly layout with clear navigation and readable content.
+Strived for accessibility by following best practices in link naming, JSX structuring, color usage, sizing, and content division into sections with clear headings.
+Project Overview
+This project demonstrates my solution for the task of creating a webpage to help customers with information about various loss reports such as cards, IDs, etc.
 
-## Deploy on Vercel
+## Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Framework: Next.js
+Language: TypeScript
+Styling: Tailwind CSS
+Component Library: Radix.ui https://www.radix-ui.com/
+Icons: https://www.radix-ui.com/icons https://docs.fontawesome.com/
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Notes
+
+Due to time constraints, I prioritized certain aspects of the project. The primary focus was on the content and ensuring the core functionality was present, with less emphasis on the navigation and header styling. Future improvements would include more detailed styling and additional functionality.
