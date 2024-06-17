@@ -5,7 +5,7 @@ import { InformationSection } from "@/features/information-section/components/In
 import { Section, Container, Flex } from "@radix-ui/themes";
 
 export const HowItWorks = () => (
-  <Section>
+  <Section id="how-does-it-work">
     <Container size="4" px="3">
       <Flex
         gap={{ initial: "8", xs: "5" }}
@@ -13,7 +13,6 @@ export const HowItWorks = () => (
         wrap={{ initial: "wrap", xs: "nowrap" }}
       >
         <InformationSection
-          id="how-does-it-work"
           title="Hur funkar Förlustanmälan?"
           items={howItWorksItems}
         />

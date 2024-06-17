@@ -5,22 +5,17 @@ import Link from "next/link";
 export const howItWorksItems = [
   {
     icon: <CheckCircledIcon style={{ marginTop: "4px" }} color="green" />,
-    text: (
-      <>
-        Du ringer till UC automatiska telefontjänst, öppen dygnet runt, och
-        anmäler borttappad eller stulen ID-handling. <br />
-        <strong>Samtalet kostar 95 kr</strong>, vilket dras på din
-        telefonräkning.
-      </>
-    ),
+    text: "Du ringer till UC automatiska telefontjänst, öppen dygnet runt, och anmäler borttappad eller stulen ID-handling. Samtalet kostar 95 kr,vilket dras på din telefonräkning.",
   },
   {
     icon: <CheckCircledIcon style={{ marginTop: "4px" }} color="green" />,
     text: (
       <>
         Vi lägger in en notering om förlorad ID-handling i din{" "}
-        <Link href="/min-upplysning">kreditupplysning</Link>. Notering om
-        förlorad ID-handling ligger kvar i två år.
+        <Link style={{ color: "blue" }} href="/min-upplysning">
+          kreditupplysning
+        </Link>
+        . Notering om förlorad ID-handling ligger kvar i två år.
       </>
     ),
   },

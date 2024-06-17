@@ -2,23 +2,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies and run the development server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Project description
 
@@ -26,28 +17,30 @@ This project is a demo webpage designed to help customers with information about
 
 ## Execution
 
-Fetching Data:
+### Fetching Data:
+
 Implemented API calls using Next.js built-in API routing and fetch to retrieve menus and content from the given endpoints.
 Created separate functions to fetch data.
 Note: Due to time constraints, I prioritized content over functionality and some styling of the navigation and header.
-Component Structure:
-Broke down the page into smaller, reusable components, inspired by file structure from React.
+
+### Component Structure:
+
+Broke down the page into smaller, reusable components, inspired by file structure from bulletproof React
 Utilized the Radix.ui component library.
-Used props to pass data between components and hooks to manage state and page lifecycle.
-Styling and UX:
-Used Tailwind CSS to quickly and efficiently style components, providing flexibility to create a responsive and modern design.
+
+### Styling and UX:
+
+Most of the styling is based upon the preconfigured themes package from the Radix.ui library, sprinkled with a small amount of Tailwind CSS.
 Focused on creating a user-friendly layout with clear navigation and readable content.
 Strived for accessibility by following best practices in link naming, JSX structuring, color usage, sizing, and content division into sections with clear headings.
-Project Overview
-This project demonstrates my solution for the task of creating a webpage to help customers with information about various loss reports such as cards, IDs, etc.
 
 ## Tech Stack
 
-Framework: Next.js
-Language: TypeScript
-Styling: Tailwind CSS
-Component Library: Radix.ui https://www.radix-ui.com/
-Icons: https://www.radix-ui.com/icons https://docs.fontawesome.com/
+- Framework Next.js
+- Language: TypeScript
+- Styling: Tailwind CSS
+- Component Library: Radix.ui https://www.radix-ui.com/
+- Icons: https://www.radix-ui.com/icons https://docs.fontawesome.com/
 
 ## Notes
 

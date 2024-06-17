@@ -8,7 +8,7 @@ export const HelpLinkPill = async () => {
   return (
     <Button variant="ghost" asChild>
       <Link href={menu.desktopMenu.helpLink}>
-        <FontAwesomeIcon className="text-silver size-4" icon={faLifeRing} />
+        <FontAwesomeIcon className="text-amber-500 size-4" icon={faLifeRing} />
         <p className="text-silver font-semibold">Hjälp & kontakt</p>
       </Link>
     </Button>

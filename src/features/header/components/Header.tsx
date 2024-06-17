@@ -21,8 +21,8 @@ const Header = async () => {
             alt="brand logotype"
           />
           <Flex display={{ initial: "none", sm: "flex" }} gap="8">
-            <Text weight="medium">Produkter & tjänster</Text>
-            <Text weight="medium">Artiklar & kunskap</Text>
+            <Text weight="bold">Produkter & tjänster</Text>
+            <Text weight="bold">Artiklar & kunskap</Text>
           </Flex>
           <Box display={{ initial: "none", sm: "block" }} ml="auto">
             <HelpLinkPill />

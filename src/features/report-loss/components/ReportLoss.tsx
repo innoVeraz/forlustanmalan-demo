@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBan } from "@fortawesome/free-solid-svg-icons";
+import { faBan, faShield } from "@fortawesome/free-solid-svg-icons";
 
 import {
   Section,
@@ -30,12 +30,7 @@ export const ReportLoss = () => (
             <Flex direction="column">
               <Link href="tel:+4609001012032">
                 <Text style={{ color: "black" }} size="5" weight="bold">
-                  0900 101 20 30
-                </Text>
-              </Link>
-              <Link href="tel:+4609001012032">
-                <Text style={{ color: "black" }} size="1">
-                  +46 900 101 20 30 (om du ringer från utlandet)
+                  + 46 900 101 20 30
                 </Text>
               </Link>
             </Flex>
@@ -62,8 +57,11 @@ export const ReportLoss = () => (
           </Text>
           <Box>
             <Button asChild>
-              <Link color="amber" href="/bedragerisparr">
-                <FontAwesomeIcon className="size-4 text-red-500" icon={faBan} />
+              <Link className="bg-amber-500" href="/bedragerisparr">
+                <FontAwesomeIcon
+                  className="size-4 text-white outline-black"
+                  icon={faShield}
+                />
                 <Text size="3" weight="medium">
                   Beställ bedrägerispärr
                 </Text>
